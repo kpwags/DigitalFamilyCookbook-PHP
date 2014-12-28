@@ -1,0 +1,128 @@
+* { }
+
+html, body {
+    background:#fff url('../images/bgtile.png') repeat;
+    color:#333;
+    font-size:18px;
+}
+
+h1 { color:#006bb2 }
+
+h2 {
+    margin:25px 0 15px 0;
+    font-size:26px;
+
+}
+
+a, a:visited, a:hover { cursor:pointer; color:#006BB2 }
+
+ul.errors { }
+ul.errors li { }
+ul.errors li span { color:#f00 }
+
+.error { color:#f00 }
+.success { color:#0a0 }
+
+.clearfix { clear:both }
+
+.left-align { text-align:left }
+.center-align { text-align:center }
+.right-align { text-align:right }
+
+footer { margin:25px 0 }
+
+footer ul { text-align:center; border-top:1px solid #777; padding-top:25px }
+footer ul li {
+    list-style-type:none;
+    padding:0 10px;
+    display:inline
+}
+
+.menu { 
+    border-bottom:1px solid #333;
+}
+
+.menu ul {
+    margin:0;
+    padding:0;
+    clear:both;
+}
+
+.menu ul li:first-child { border-left:1px solid #777 }
+
+.menu ul li { 
+    list-style-type:none;    
+    border-right:1px solid #777;
+    display:block;
+    float:left
+}
+
+.menu ul li a { 
+    color:#333;
+    padding:10px 15px;
+    text-decoration:none;
+    line-height:3
+}
+
+.menu ul li.active, .menu ul li:hover { background:#ccc }
+
+.section { 
+    display:none;
+    width:960px;
+    margin:25px auto
+}
+
+.section h1 { text-align:center }
+
+.section.active { display:block }
+
+.category-list { }
+
+.category-list li {
+    list-style-type:none;
+    margin:14px 0;
+    text-align:center
+}
+
+.category-list li span.count { color:#333 }
+
+.section#alphabetical li { font-size:28px; line-height:28px; vertical-align:middle }
+.section#alphabetical li span.count { font-size:18px; vertical-align:middle }
+
+.recipe-list { margin-top: 40px }
+.recipe-list li {
+    list-style-type:none;
+    margin:18px 0;
+    text-align:center;
+    font-size:22px
+}
+
+.login-form {
+    border:1px solid #777;
+    border-radius:3px;
+    margin:50px 0
+}
+
+.login-form form { padding:20px }
+
+.admin-top-menu ul {
+    text-align:center;
+    margin:12px 0 25px 0;
+}
+.admin-top-menu ul li {
+    list-style-type:none;
+    padding:0 10px;
+    display:inline
+}
+
+.admin-table table thead tr { background:#3333ff }
+.admin-table table thead tr th { color:#fff; text-align:left; padding:4px 8px }
+.admin-table table tbody tr { background:#fff}
+.admin-table table tbody tr:hover { background:#d6d6ff }
+.admin-table table tbody tr td { padding:3px 6px }
+.admin-table table tbody tr:nth-child(even) { background:#d6d6ff }
+
+input.errored { border-color:#f00; background:#fcc }
+#client-side-errors { display:none }
+
+.add-link { margin:15px 0 }

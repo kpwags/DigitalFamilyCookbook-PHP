@@ -1,0 +1,7 @@
+<?php
+define("MYSQLHOST", "DBSERVER");
+define("MYSQLUSERNAME", "DBUSERNAME");
+define("MYSQLPASSWORD", "DBPASSWORD");
+define("MYSQLDATABASE", "DBNAME");
+define("MYSQLPORT", "DBPORT");
+?>

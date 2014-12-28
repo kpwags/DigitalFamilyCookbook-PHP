@@ -1,0 +1,18 @@
+*******************************************************
+Recipe Website
+Documentation
+AJAX Calls
+
+Created: 12/27/14 (v1.0.0)
+Last Updated: 12/27/14 (v1.0.0)
+*******************************************************
+
+AJAX Calls are executed through PHP files prefixed with ajax and have the filename structure of ajax.ACTIONNAME.php
+
+All AJAX calls return the same structure:
+
+{
+    Result: SUCCESS or ERROR,
+    Messages: [ Array of messages ],
+    Data: { Any data returned (free form) }
+}

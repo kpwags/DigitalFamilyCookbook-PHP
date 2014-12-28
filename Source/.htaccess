@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^bootstrap - [L,NC]
+RewriteRule ^elements/.* - [L,NC]
+RewriteRule ^images - [L,NC]
+RewriteRule ^php/.*$ - [L,NC]
+RewriteRule ^admin/php/.*$ - [L,NC]
+RewriteRule ^scripts - [L,NC]
+RewriteRule ^styles - [L,NC]
+RewriteRule ^uploads - [L,NC]
+
+RewriteRule ^login login.php [L,QSA]
+RewriteRule ^recipes/([^/]*)/([^/]*)$ recipe-list.php?type=$1&value=$2 [L,QSA]
+
+RewriteRule ^admin/index admin/index.php?page=1 [L,QSA]
+RewriteRule ^admin/index/([^/]*)$ admin/index.php?page=$1 [L,QSA]
+RewriteRule ^admin/create-recipe admin/create-recipe.php [L,QSA]
+RewriteRule ^admin/edit-recipe/([^/]*)$ admin/edit-recipe.php?recipe_id=$1 [L,QSA]
+RewriteRule ^admin/users admin/users.php [L,QSA]
+RewriteRule ^admin/create-user admin/create-user.php [L,QSA]
+RewriteRule ^admin/edit-user/([^/]*)$ admin/edit-user.php?user_id=$1 [L,QSA]
